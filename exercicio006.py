@@ -9,6 +9,5 @@ while tentativas < 3:
     else:
         if tentativas == 3:
             print("Conta bloqueada.")
-            break
         else:
             print(f"Senha incorreta. Você tem mais {3 - tentativas} tentativa(s).")
